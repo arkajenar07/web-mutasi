@@ -8,7 +8,7 @@
             <tr>
                 <th>id siswa</th>
                 <th>nama siswa</th>
-                <th>id siswa</th>
+                <th>tanggal lahir</th>
                 <th>id siswa</th>
                 <th>id siswa</th>
             </tr>
