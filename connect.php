@@ -1,13 +1,13 @@
 <?php
-$koneksi = mysqli_connect("localhost", "root", "");
+$host = mysqli_connect("localhost", "root", "");
 
-if($koneksi){
+if($host){
     echo "KONEKSI BERHASIL :)"."<br>";
 } else {
     echo "KONEKSI GAGAL :("."<br>";
 }
 
-$db = mysqli_select_db($koneksi,"mutasi_sekolah");
+$db = mysqli_select_db($host,"mutasi_sekolah");
 
 if($db){
     echo "db connected"."<br>";
